@@ -166,8 +166,32 @@ main a:hover {
     text-decoration: underline;
 }
 
-.content {
+.conteudo {
     animation: fadeIn 0.5s ease-in;
+}
+
+.container-imagem {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagem-principal {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.legenda-imagem {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.lista-personalizada {
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 @keyframes fadeIn {
